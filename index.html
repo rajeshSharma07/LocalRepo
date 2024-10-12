@@ -1,1 +1,73 @@
-<p>chintu</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><style>
+    body{
+        align-items: center;
+    }
+form {
+
+    width: 400px;
+    height:600px;
+    align-items:center;
+
+    padding: 25px;
+
+    background-color: #b0bfc5;
+
+    font-family: Arial, sans-serif;
+    }
+    label {
+
+display:block ;
+
+margin-bottom:10px;
+
+font-weight:bold ;
+
+}
+input[type="submit"]{
+    background-color:rgb(118, 234, 118);
+border-radius: 10px;
+border:1px;
+}
+select{
+    background-color:rgb(35, 147, 109);
+    border-radius:5px ;
+
+}
+
+</style>
+<body><form>
+    <h1>Resistration form</h1>
+    <label for="first name">first name</label>
+    <input type="text"><br><br>
+    <label for="Last name ">Last name</label>
+    <input type="text"><br><br>
+    <label for="Email ID">Email ID</label>
+    <input type="text"><br><br>
+    <label for="password">password</label>
+    <input type="password"><br><br>
+    <label for="D.O.B">D.O.B</label>
+    <input type="date" id="birthday" name="birthday"><br>
+    <h4>gender</h4>
+    <label for="male">male</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="female">female</label>
+    <input type="radio" id="female" name="gender" value="female"><br><br>
+    <select name="branch">
+    <option>--select branch</option>
+    <option>data science</option>
+    <option>cse</option>
+    <option>AIML</option>
+    <option>mechanical</option>
+    </select>
+
+    <input type ="submit" value="submit">
+    
+</form>
+</body>
+</html>
